@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Minha página</title>
+</head>
+<body>
+
+    <!-- navbar bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a href="#" class="navbar-brand">
+            <img src="img/logo1.png" alt="Logo 1" width="120" height="120">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="navitem">
+                    <a href="#quemsomos" class="nav-link">Quem somos?</a>
+                </li>
+                <li class="navitem">
+                    <a href="#parceiros" class="nav-link">Parceiros</a>
+                </li>
+                <li class="navitem">
+                    <a href="#servicos" class="nav-link">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Nesse caso temos o "container fluid e text-center" do bootstrap; e quem-somos e margin como classes da div
+    imagem redimensionada pra 400x400; arredondada pelo bootstrap -->
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin">
+            <h3 class="margin">Quem somos?</h3>
+            <img src="img/team.jpg" alt="Team" width="400" height="400" class="rounded-circle">
+            <h3>Somos um time comprometido com os resultados.</h3>
+        </div>
+    </section>
+
+    <!-- carousel -->
+    <section id="parceiros">
+        <div class="container-fluid parceiros text-center margin">
+            <h3 class="margin">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/logo2.png" alt="Logo 2" width="100%">
+                    </div>
+                <div class="col-lg-4">
+                    <img src="img/logo2.png" alt="Logo 2" width="100%">
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/logo2.png" alt="Logo 2" width="100%">
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid servicos text-center margin">
+            <h3 class="margin">Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi perferendis iste suscipit quidem, maxime odit consectetur expedita placeat eum deleniti id optio vitae quod eligendi, facere ex quis ullam!</p>
+                        <img src="img/app.jpg" alt="App" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi perferendis iste suscipit quidem, maxime odit consectetur expedita placeat eum deleniti id optio vitae quod eligendi, facere ex quis ullam!</p>
+                        <img src="img/site1.jpg" alt="Site" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi perferendis iste suscipit quidem, maxime odit consectetur expedita placeat eum deleniti id optio vitae quod eligendi, facere ex quis ullam!</p>
+                        <img src="img/site2.jpg" alt="Site 2" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por: Lucas Santos</p>
+    </footer>
+
+
+</body>
+</html>
